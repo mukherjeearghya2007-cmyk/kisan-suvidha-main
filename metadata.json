@@ -1,0 +1,6 @@
+{
+  "name": "Kisan Suvidha",
+  "description": "AI-powered Government Welfare Scheme Assistant for Indian farmers with multilingual eligibility checker, smart scheme finder, and application guidance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
