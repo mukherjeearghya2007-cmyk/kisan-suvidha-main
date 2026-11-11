@@ -4,10 +4,10 @@
  * Provides automatic token injection, timeout handling, and graceful offline fallback.
  */
 
-// Default backend API URL. Can be overridden in .env via VITE_API_URL
+// Default backend API URL. Uses relative /api which is proxied to Django in Vite
 export const API_BASE_URL = 
   (import.meta as any).env?.VITE_API_URL || 
-  'http://127.0.0.1:8000/api';
+  '/api';
 
 const TOKEN_STORAGE_KEY = 'kisan_django_token';
 
